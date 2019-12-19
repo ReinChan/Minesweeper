@@ -1,5 +1,7 @@
 a = int(input("Masukan jumlah baris (max = 26) : "))
 b = int(input("Masukan jumlah shaf (max = 26)  : "))
+if a or b > 26:
+    print("Maksimalnya 26 oy,dasar jomblo rese!")
 board = []
 def lol(x):
     if x == 0:
@@ -52,8 +54,10 @@ def lol(x):
         return "x"    
     elif x == 24:
         return "y"    
+    elif x == 25:
+        return "z"  
     else:
-        return "z"    
+        print("Noh kan jadi ERROR!")
 for i in range(b):
     lal = lol(i)
     for i in range(a):
@@ -73,7 +77,7 @@ def main():
     for i in range(b-1):
         alp(ruded)
         ruded = ruded + a
-    
+main()    
 
     
     
