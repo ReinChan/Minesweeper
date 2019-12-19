@@ -1,6 +1,8 @@
 a = int(input("Masukan jumlah baris (max = 26) : "))
 b = int(input("Masukan jumlah shaf (max = 26)  : "))
-if a or b > 26:
+if a > 26 :
+    print("Maksimalnya 26 oy,dasar jomblo rese!")
+if b > 26 :    
     print("Maksimalnya 26 oy,dasar jomblo rese!")
 board = []
 def lol(x):
