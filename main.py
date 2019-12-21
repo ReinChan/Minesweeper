@@ -67,6 +67,13 @@ for i in range(b):
         lel = lol(i)
         e = lal + lel
         board.append(e)
+def duar(x,y,z):
+    
+        
+def loop(x,y):
+    
+    
+    
 def main():        
     def alp(x):
         pisan = "|"
@@ -80,8 +87,6 @@ def main():
     for i in range(b-1):
         alp(ruded)
         ruded = ruded + a
+    npush = input("Masukan Spectrum : ")
+    
 main()    
-
-
-
-
