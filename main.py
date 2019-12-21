@@ -1,5 +1,6 @@
 a = int(input("Masukan jumlah baris (max = 26) : "))
-b = int(input("Masukan jumlah shaf (max = 26)  : "))
+b = int(input("Masukan jumlah shaf (max = 26) : "))
+bom = int(input("Masukan jumlah bom (max = baris * shaf) : "))
 if a > 26 :
     print("Maksimalnya 26 oy,dasar jomblo rese!")
 if b > 26 :    
@@ -81,5 +82,6 @@ def main():
         ruded = ruded + a
 main()    
 
-    
-    
+
+
+
